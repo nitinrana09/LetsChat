@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorCyan</item>
+        <item name="colorPrimaryDark">@color/colorCyanDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="buttonStyle">@style/cyanButton</item>
+    </style>
+
+    <style name="cyanButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textColor">@color/colorFontWhite</item>
+        <item name="android:textSize">16dp</item>
+
+    </style>
+</resources>
